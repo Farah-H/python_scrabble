@@ -1,5 +1,8 @@
+# creating a Scrabble class to contain list of characters 
 class Scrabble():
 
+
+    # initialising the class by putting each category into a list
     def __init__(self):
         self.one_point = ['A', 'E', 'I', 'O', 'U', 'L', 'N', 'R', 'S', 'T' ]
         self.two_point = ['D','G']
